@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+<!--    Test CurvesView-->
+    <com.example.mycurves.CurvesView
+
+        android:id="@+id/mCurve"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="300dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <com.example.mycurves.RunTimeCurvesView
+
+        android:id="@+id/mRTCurve"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="300dp"
+        tools:ignore="MissingConstraints" />
+<!--    Test RectView-->
+<!--    <com.example.mycurves.RectView-->
+<!--        android:id="@+id/mCurve"-->
+<!--        android:background="#ffffff"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="300dp"-->
+<!--        android:paddingLeft="10dp"-->
+<!--        android:paddingRight="20dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+
+<!--        tools:ignore="MissingConstraints" />-->
+
+</LinearLayout>
